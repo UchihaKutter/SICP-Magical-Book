@@ -336,7 +336,7 @@ Filter 过滤器的实现思路很简单，递归发现不满足条件的跳过�
 ### Semigroup
 
 一个 `Group` 是非空的集合 ，针对群上的 二元运算`&`，(group,&) 群支持下面几项性质:
-* 封闭性（Closure）：对于任意a，b∈G，有a$\text{&}​$b∈G
+* 封闭性（Closure）：对于任意a，b∈G，有a $\text{&}​$ b∈G
 * 结合律（Associativity）：对于任意a，b，c∈G，有(a\text{&}b)\text{&}c = a\text{&}(b\text{&}c)
 * 幺元 （Identity）：存在幺元e，使得对于任意a∈G，e\text{&}a=a\text{&}e=a
 * 逆元：对于任意a∈G，存在逆元$a^{-1}$，使得a^{-1}\text{&}a=a\text{&}a{^-1}=e
