@@ -398,7 +398,7 @@ public class StringMonoid extend Monid<String> {
 
 ![functor](learn-sicp-2/Functor.png)
 
-这里我们假设里面范畴1 里面有两个类型(a 和 b)， $a => b$ , 范畴2 里面有两种类型（F a 和 F b），$Fa => Fb$ ，这两个范畴之间还存在着映射 &a => Fa& 和 $b => Fb$ ，我们就称两个范畴之间的映射是**函子(Functor)** 。
+这里我们假设里面范畴1 里面有两个类型(a 和 b)， $a => b$ , 范畴2 里面有两种类型（F a 和 F b），$Fa => Fb$ ，这两个范畴之间还存在着映射 $a => Fa$ 和 $b => Fb$ ，我们就称两个范畴之间的映射是**函子(Functor)** 。
 
 我们可以用 `Integer` 和 `String` 之间的关系去更方便的去理解：
 
